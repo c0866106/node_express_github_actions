@@ -15,7 +15,7 @@ app.get('/', function (req, res) {
 })
 
 //http://localhost:3000/
-app.get('/', function (req, res) {
+app.get('/student', function (req, res) {
       res.send("<h1> C0866106- Mayank Mittan</h1>")
 })
 
